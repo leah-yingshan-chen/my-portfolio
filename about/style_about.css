@@ -1,0 +1,120 @@
+* {
+   list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
+title{display: none}
+
+body {
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    background: white;
+    width: 100%;
+    min-width: 960px;
+}
+
+.nav_bar{
+    height: 80px;
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 4px 16px #f0f0f0;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    float: left;
+    width: 82px;
+    height: 80px;
+    position: absolute;
+    left:64px;
+}
+
+.menu_item ul{
+    float: left;
+    display: inline;
+    position: absolute;
+    right:64px;
+    
+}
+
+.menu_item ul li{
+    float: left;
+    padding: 28px 16px;
+}
+
+.menu_item li a{color: black;}
+.menu_item li a:hover{color: #1897FF;}
+
+/* bg */
+.bg{position: fixed; z-index: -1;}
+.bg img{width:600px;}
+
+/* footer */
+.footer{
+  width: 100%; /* 设置 footer 宽度 */
+  height: 280px; /* 设置 footer 高度 */
+  background-color:#FFFFFF; /* Footer 背景色 */
+  position: relative; /* 设置相对定位 */
+}
+
+.footer::before {
+  content: ''; /* 空内容用于伪元素 */
+  position: absolute;
+  top: 0; /* 定位在 footer 顶部 */
+  left: 0;
+  width: 100%;
+  height: 3px; /* 边框的高度 */
+  background: linear-gradient(to right, #C0E3F5, #FFEC8E); /* 蓝黄渐变 */
+}
+.footer h2{
+    text-align: center;
+    padding-top:80px;
+}
+
+.footer ul{text-align: center;}
+.footer ul li{
+    display: inline-block; /* 让边框大小根据文字自适应 */
+    margin:32px 32px;
+    padding: 12px 28px; /* 给文字一些内边距，控制边框和文字的距离 */
+    border: 2px solid black; /* 边框颜色和宽度 */
+    border-radius: 48px; /* 圆角半径，数字越大圆角越大 */
+    color: black; /* 文字颜色 */
+    font-size: 16px; /* 文字大小 */
+    text-align: center; /* 如果文字多行，可以让它居中 */
+}
+.footer li a{color: black;}
+.footer li a:hover{color: #1897FF;}
+
+/* bg */
+.bg{position: fixed; z-index: -1;}
+.bg img{width:1020px;}
+
+/* main */
+.cover{padding-bottom: 48px; background-color: #FBECCD; line-height: 48px;}
+.banner{
+    padding:48px 160px;
+    display:flex;
+    justify-content: space-between; /* 左右分布 */
+    align-items: flex-start; /* 顶部对齐 */
+    gap: 160px; /* 左右部分的间距 */
+}
+.banner img{width:413px;}
+.banner_text{padding-top:32px;}
+
+.education{margin:0 160px; padding:48px 64px; background-color: #F5EFE5;}
+
+.content{margin:48px 160px; line-height: 48px;}
+
+.finding{display:inline-flex;}
+.finding p{text-align: center;}
+.finding img{margin:auto; width:80%;}

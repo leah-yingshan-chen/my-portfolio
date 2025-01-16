@@ -1,0 +1,254 @@
+* {
+   list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
+title{display: none}
+
+body {
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    background: white;
+    width: 100%;
+    min-width: 960px;
+}
+
+.nav_bar{
+    height: 80px;
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 4px 16px #f0f0f0;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    float: left;
+    width: 82px;
+    height: 80px;
+    position: absolute;
+    left:64px;
+}
+
+.menu_item ul{
+    float: left;
+    display: inline;
+    position: absolute;
+    right:64px;
+    
+}
+
+.menu_item ul li{
+    float: left;
+    padding: 28px 16px;
+}
+
+.menu_item li a{color: black;}
+.menu_item li a:hover{color: #1897FF;}
+
+
+
+/* footer */
+.footer{
+  width: 100%; /* 设置 footer 宽度 */
+  height: 280px; /* 设置 footer 高度 */
+  background-color:#FFFFFF; /* Footer 背景色 */
+  position: relative; /* 设置相对定位 */
+}
+
+.footer::before {
+  content: ''; /* 空内容用于伪元素 */
+  position: absolute;
+  top: 0; /* 定位在 footer 顶部 */
+  left: 0;
+  width: 100%;
+  height: 3px; /* 边框的高度 */
+  background: linear-gradient(to right, #C0E3F5, #FFEC8E); /* 蓝黄渐变 */
+}
+.footer h2{
+    text-align: center;
+    padding-top:80px;
+}
+
+.footer ul{text-align: center;}
+.footer ul li{
+    display: inline-block; /* 让边框大小根据文字自适应 */
+    margin:32px 32px;
+    padding: 12px 28px; /* 给文字一些内边距，控制边框和文字的距离 */
+    border: 2px solid black; /* 边框颜色和宽度 */
+    border-radius: 48px; /* 圆角半径，数字越大圆角越大 */
+    color: black; /* 文字颜色 */
+    font-size: 16px; /* 文字大小 */
+    text-align: center; /* 如果文字多行，可以让它居中 */
+}
+.footer li a{color: black;}
+.footer li a:hover{color: #1897FF;}
+
+/* bg */
+.bg{position: fixed; z-index: -1;}
+.bg img{width:600px;}
+
+
+/* 封面按钮 */
+.black-button a{
+    background-color: black; /* 黑色背景 */
+    color: white;           /* 白色文字 */
+    border: none;          /* 无边框 */
+    border-radius: 8px;    /* 圆角 */
+    padding: 12px 24px;    /* 内边距 */
+    font-size: 16px;       /* 字体大小 */
+    text-align: center;    /* 居中对齐 */
+    cursor: pointer;       /* 鼠标指针变成手型 */
+    transition: all 0.3s ease; /* 动画过渡 */
+}
+
+/* 鼠标悬停效果 */
+.black-button a:hover {
+    background-color:#1897FF; /* 背景 */
+    color:#FFEC8E;         /* 文字 */
+    transform: translateY(2px); /* 按钮微微向上浮动 */
+}
+
+/* 鼠标按下效果 */
+.black-button:active {
+    background-color: #555; /* 更浅的黑色背景 */
+    transform: translateY(0); /* 恢复原位 */
+}
+
+/* cover */
+.cover{background-color: #FBECCD; padding-bottom: 96px;}
+.cover_text{padding:160px; line-height: 48px;}
+
+
+/* 小人 */
+.cartoon{
+    position: absolute;
+    top:434px;
+    right:120px;
+}
+.cartoon_container {
+    width: 592px;
+    height: 374px;
+    position: relative;
+    cursor: pointer;
+    }
+.hand{
+    width:89px;
+    height:160px;
+    position: absolute;
+    top:133px;
+    left:-30px;
+    transform-origin:bottom; /* 设置旋转轴心 */
+    transition: transform 0.3s ease;
+}
+.body{
+    width:592px;
+    height: 330px;
+    position: absolute;
+    top:43.4px;
+    left:0;
+    transition: transform 0.3s ease;
+}
+.face{
+    width:360px;
+    height: 90px;
+    position: absolute;
+    top:172px;
+    left:80.7px;
+    transition: transform 0.3s ease;
+}
+.pupil{
+    width:248.33px;
+    height: 68.71px;
+    position: absolute;
+    top:178px;
+    left:132px;
+    transition: transform 0.3s ease;
+}
+.highlight{
+    width:209.64px;
+    height: 30.02px;
+    position: absolute;
+    top:182px;
+    left:170px;
+    transition: transform 0.3s ease;
+}
+.plant{
+    width:69.16px;
+    height: 76.75px;
+    position: absolute;
+    top:0;
+    left:371px;
+    transition: transform 0.3s ease;
+}
+
+ /* 鼠标悬停时，添加动画 */
+.cartoon_container:hover .hand{
+    transform: rotate(10deg);
+}
+
+.cartoon_container:hover .face{
+    transform:translateX(25.3px); 
+    transform: translateY(-36px);
+}
+.cartoon_container:hover .pupil{
+    transform:translateX(31px); 
+    transform: translateY(-37px);
+}
+.cartoon_container:hover .highlight{
+    transform:translateX(11px); 
+    transform: translateY(-43px);
+}
+.cartoon_container:hover .plant{
+    transform: translateY(-15px);
+}
+
+
+/* projects */
+.works{margin:48px 160px;}
+.works ul li{
+    margin: 16px 160px;
+    background-color: white;
+    box-shadow: 0 4px 8px #f0f0f0;
+    border-radius: 16px; /* 圆角半径 */
+}
+.works ul li a{
+    color:black;
+    transition: all 0.3s ease;
+}
+.works ul li img{
+    margin:auto; width:100%;
+    border-radius: 16px; /* 圆角半径 */
+}
+.content{
+    display:flex;
+    justify-content: space-between; /* 左右分布 */
+    align-items: flex-start; /* 顶部对齐 */
+    gap: 10px; /* 左右部分的间距 */
+    padding:32px;
+}
+.title{flex:1;}
+.detail{flex:1.5;}
+
+.title p{
+    font-size: 14px;
+    background-color: #D9D9D9; 
+    display: inline-block; 
+    padding:0 10px; 
+    text-align: center;
+    border-radius: 4px;
+}
+
+.works ul li a:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 8px #f0f0f0;
+}
