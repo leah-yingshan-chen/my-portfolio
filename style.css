@@ -99,6 +99,7 @@ body {
 
 
 /* 封面按钮 */
+.black-button{border: none;}
 .black-button a{
     background-color: black; /* 黑色背景 */
     color: white;           /* 白色文字 */
