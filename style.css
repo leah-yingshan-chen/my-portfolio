@@ -216,13 +216,12 @@ body {
 
 /* projects */
 .works{margin:48px 160px;}
-.works ul li{
+
+.works ul li a{
     margin: 16px 160px;
     background-color: white;
     box-shadow: 0 4px 8px #f0f0f0;
     border-radius: 16px; /* 圆角半径 */
-}
-.works ul li a{
     color:black;
     transition: all 0.3s ease;
 }
@@ -250,6 +249,6 @@ body {
 }
 
 .works ul li a:hover{
-    transform: translateY(-4px);
-    box-shadow: 0 8px 8px #f0f0f0;
+    transform: scale(1.02); /* 放大 2% */
+    filter: grayscale(5%) brightness(0.9); /* 灰色滤镜，降低亮度 */;
 }
