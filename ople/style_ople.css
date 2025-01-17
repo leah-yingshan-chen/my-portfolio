@@ -127,7 +127,7 @@ p{
 .footer ul{text-align: center;}
 .footer ul li{
     display: inline-block; /* 让边框大小根据文字自适应 */
-    margin:32px 32px;
+    margin:32px 8px;
     padding: 12px 28px; /* 给文字一些内边距，控制边框和文字的距离 */
     border: 2px solid black; /* 边框颜色和宽度 */
     border-radius: 48px; /* 圆角半径，数字越大圆角越大 */
