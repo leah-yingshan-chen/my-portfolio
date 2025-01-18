@@ -115,9 +115,9 @@ body {
 
 /* 鼠标悬停效果 */
 .black-button a:hover {
-    background-color:#1897FF; /* 背景 */
-    color:#FFEC8E;         /* 文字 */
-    transform: translateY(2px); /* 按钮微微向上浮动 */
+    background-color:#555; /* 背景 */
+    color:white;         /* 文字 */
+    transform: translateY(-2px); /* 按钮微微向上浮动 */
 }
 
 /* 鼠标按下效果 */
