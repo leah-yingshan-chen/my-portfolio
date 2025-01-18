@@ -107,7 +107,8 @@ p{
   background: linear-gradient(to right, #C0E3F5, #FFEC8E); /* 蓝黄渐变 */
 }
 .footer h2{
-    text-align: center;
+    margin: auto;
+    width: 40%;
     padding-top:80px;
 }
 
@@ -179,7 +180,7 @@ p{
 .conclusion{margin:48px 160px;}
 
 .hmw{margin:0; background-color: #CFFF5E;}
-.hmw h2{margin: 0 160px; padding-top: 64px; text-align: center;} 
+.hmw h2{padding-top: 64px; margin: auto; width: 10%; text-align: center;} 
 .hmw h3{margin:0 230px; padding-bottom: 64px;}
 
 .concept{margin:48px 160px;}
@@ -189,6 +190,7 @@ p{
     display:inline;
     width:60px;
 }
+.solution p{width: 80%; text-align: left;}
 
 .features ul{
     margin-top:32px;
@@ -206,7 +208,7 @@ p{
 .storyboard{margin:48px 160px;}
 .storyboard img{margin:auto; width:100%;}
 
-.lowfi{margin:48px 160px;}
+.lowfi{margin:48px 160px; position: relative;}
 .lowfi img{margin:auto; width:100%; padding-bottom: 48px;}
 
 .test{margin:48px 160px;}
@@ -216,14 +218,19 @@ p{
     align-items: flex-start; /* 顶部对齐 */
     gap: 140px; /* 左右部分的间距 */
     margin:48px 0;
+    position: relative;
 }
 .left{
     flex: 1; /* 左边占据较多空间 */
 }
+.left ul{padding-top: 16px; line-height: 2.4;}
+
 .right{
     flex: 2; /* 右边占据较少空间 */
 }
-.right ul{line-height: 2.4;}
+.right ul{padding-top: 16px; line-height: 2.4;}
+
+
 
 .improve{margin:48px 160px;}
 .improve_describe{

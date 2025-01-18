@@ -120,7 +120,8 @@ p{
   background: linear-gradient(to right, #C0E3F5, #FFEC8E); /* 蓝黄渐变 */
 }
 .footer h2{
-    text-align: center;
+    margin: auto;
+    width: 40%;
     padding-top:80px;
 }
 
@@ -190,8 +191,12 @@ p{
     display: flex; 
     justify-content: space-between; 
     align-items: flex-start;
-    gap: 84px; 
+    gap:160px;
+    
 }
+.research_left{flex:2;}
+.research_right{flex:3;}
+.research_right ul li{padding-top: 16px;}
 
 /* personas */
 .persona{margin-top:96px; margin-bottom:0; margin-left:160px;}

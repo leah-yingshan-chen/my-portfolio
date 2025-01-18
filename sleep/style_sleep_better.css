@@ -107,7 +107,8 @@ p{
   background: linear-gradient(to right, #C0E3F5, #FFEC8E); /* 蓝黄渐变 */
 }
 .footer h2{
-    text-align: center;
+    margin: auto;
+    width: 40%;
     padding-top:80px;
 }
 
@@ -155,8 +156,15 @@ p{
     border: 2px solid #188AEC;
     padding: 32px;
 }
-.problem h2{text-align: center;}
-.problem p{text-align: center;}
+.problem h2{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.problem p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 
 .process{margin:64px 160px;}

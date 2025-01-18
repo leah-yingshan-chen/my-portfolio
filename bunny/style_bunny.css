@@ -134,8 +134,9 @@ p{
     gap: 48px; /* 网格之间的间距 */
 }
 
-.display li img{width:200px;height:200px;}
 .display li p{width: 200px; padding-top:16px; text-align: center;}
+.display li img{width:200px;height:200px;}
+
 
 /* footer */
 .footer{
@@ -155,7 +156,8 @@ p{
   background: linear-gradient(to right, #C0E3F5, #FFEC8E); /* 蓝黄渐变 */
 }
 .footer h2{
-    text-align: center;
+    margin: auto;
+    width: 40%;
     padding-top:124px;
 }
 

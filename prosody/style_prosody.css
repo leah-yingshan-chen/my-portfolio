@@ -119,7 +119,8 @@ p{
   background: linear-gradient(to right, #C0E3F5, #FFEC8E); /* 蓝黄渐变 */
 }
 .footer h2{
-    text-align: center;
+    margin: auto;
+    width: 40%;
     padding-top:80px;
 }
 
@@ -181,7 +182,7 @@ p{
     justify-content: space-between;
     align-items: flex-start;
     gap: 120px;
-    padding: 48px 160px;
+    padding:16px 160px;
 }
 .q_left{
     flex: 1; 
@@ -196,11 +197,12 @@ p{
     gap:64px;
 }
 
+
 .survey{padding:48px 160px; position: relative;}
 .finding{width:320px; height:auto; text-align: left; transition: all 0.3s ease;}
 .finding:hover{transform: scale(1.02); /* 放大 2% */}
 
 .survey h3 a{color: #381292;}
-.survey h3 a:hover{transform:translateY(-2px);}
+.survey h3 a:hover{transform:translateY(-2px); cursor: pointer;}
 
 
