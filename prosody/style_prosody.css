@@ -123,6 +123,10 @@ p{
     width: 40%;
     padding-top:80px;
 }
+.footer p{
+    margin:auto;
+    width:26%;
+}
 
 .footer ul{text-align: center;}
 .footer ul li{

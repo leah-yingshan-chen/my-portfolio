@@ -161,6 +161,11 @@ p{
     padding-top:124px;
 }
 
+.footer p{
+    margin:auto;
+    width:26%;
+}
+
 .footer ul{text-align: center;}
 .footer ul li{
     display: inline-block; /* 让边框大小根据文字自适应 */
