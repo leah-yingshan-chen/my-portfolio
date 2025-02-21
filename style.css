@@ -131,14 +131,14 @@ body {
 }
 
 /* cover */
-.cover{background-color: #FBECCD; padding-bottom: 96px;}
+.cover{position: relative; background-color: #FBECCD; padding-bottom: 96px;}
 .cover_text{padding:160px; line-height: 48px;}
 
 
 /* 小人 */
 .cartoon{
     position: absolute;
-    top:434px;
+    bottom: -58px;
     right:120px;
 }
 .cartoon_container {

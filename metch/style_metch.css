@@ -162,7 +162,14 @@ p{
 
 /* 正式内容 */
 .background{margin:48px 160px;}
-.meta img{width:360px; position: absolute; top:1480px; right:160px;}
+.meta_intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:16px;
+}
+.meta p{flex:2;}
+.meta img{flex:1; display: inline-block; width:35%;}
 
 
 .process{margin:48px 160px;}
@@ -190,11 +197,12 @@ p{
 .concept{margin:48px 160px;}
 
 .solution{margin:48px 160px;}
-.solution img{
-    display:inline;
-    width:60px;
+.solution_container{
+    display: flex; 
+    justify-content: space-between;
+    gap:16px;
 }
-.solution p{width: 80%; text-align: left;}
+.solution_container img{display: inline-block; width:20%;}
 
 .features ul{
     margin-top:32px;
@@ -212,25 +220,23 @@ p{
 .storyboard{margin:48px 160px;}
 .storyboard img{margin:auto; width:100%;}
 
-.lowfi{margin:48px 160px; position: relative;}
-.lowfi img{margin:auto; width:100%; padding-bottom: 48px;}
+.lowfi{margin:48px 160px;}
+.lowfi img{margin:auto; width:100%; padding:48px 0;}
 
 .test{margin:48px 160px;}
 .test_container{
     display:flex;
-    justify-content: space-between; /* 左右分布 */
-    align-items: flex-start; /* 顶部对齐 */
-    gap: 140px; /* 左右部分的间距 */
+    justify-content: flex-start;
+    gap: 70px; 
     margin:48px 0;
-    position: relative;
 }
 .left{
-    flex: 1; /* 左边占据较多空间 */
+    flex: 1; white-space: nowrap;
 }
 .left ul{padding-top: 16px; line-height: 2.4;}
 
 .right{
-    flex: 2; /* 右边占据较少空间 */
+    flex: 2; white-space: nowrap;
 }
 .right ul{padding-top: 16px; line-height: 2.4;}
 
