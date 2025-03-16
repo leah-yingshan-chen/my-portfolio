@@ -118,7 +118,9 @@ p{
 .footer li a{color: black;}
 .footer li a:hover{color: #1897FF;}
 
-
+/* bg */
+.bg{position: fixed; z-index: -1;}
+.bg img{width:1020px;}
 
 /* overview */
 .overview h2{padding-top:48px; padding-left:160px;}
