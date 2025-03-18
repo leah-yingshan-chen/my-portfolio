@@ -22,7 +22,7 @@ body {
 }
 
 .nav_bar{
-    height: 80px;
+    height: 64px;
     width: 100%;
     background: white;
     margin: 0 auto;
@@ -49,7 +49,7 @@ body {
 
 .menu_item ul li{
     float: left;
-    padding: 28px 16px;
+    padding: 20px 16px;
 }
 
 .menu_item li a{color: black;}
@@ -131,8 +131,8 @@ body {
 }
 
 /* cover */
-.cover{position: relative; background-color: #FBECCD; padding-bottom: 96px;}
-.cover_text{padding:160px; line-height: 48px;}
+.cover{position: relative; background-color: #FBECCD; padding-bottom: 66px;}
+.cover_text{padding:120px 160px; line-height: 48px;}
 
 
 /* 小人 */

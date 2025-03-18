@@ -69,7 +69,7 @@ p{
 
 /* navigation bar */
 .nav_bar{
-    height: 80px;
+    height: 64px;
     width: 100%;
     background: white;
     margin: 0 auto;
@@ -96,7 +96,7 @@ p{
 
 .menu_item ul li{
     float: left;
-    padding: 28px 16px;
+    padding: 20px 16px;
 }
 
 .menu_item li a{color: black;}
